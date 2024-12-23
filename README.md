@@ -1,3 +1,6 @@
+## Dataset
+This project uses the [Kaggle Dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k/data) for training and testing purposes.
+
 ## Image Caption Generator
 
 This project generates descriptive captions for images using a neural network that combines Convolutional Neural Networks (CNNs) for image feature extraction and Long Short-Term Memory (LSTM) networks for natural language processing.
