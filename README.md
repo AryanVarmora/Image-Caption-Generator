@@ -16,27 +16,13 @@ Generates captions for images through a CNN-LSTM architecture.
 
 Includes evaluation metrics like BLEU score to measure caption quality.
 
-Repository Structure
 
-Image-Caption-Generator/
-├── data/
-│   ├── captions.txt        # Captions dataset
-│   └── images/             # Folder for image files (sample images)
-├── notebooks/
-│   └── preprocessing.ipynb # Jupyter Notebook for text preprocessing
-├── src/
-│   ├── tokenizer.py        # Script for tokenizing captions
-│   ├── model.py            # CNN-LSTM model code
-│   └── train.py            # Model training script
-├── README.md               # Project documentation
-├── LICENSE                 # License file
-└── requirements.txt        # Python dependencies
 
 How to Run
 
 1. Clone the Repository
 
-git clone <repo-url>
+git clone https://github.com/AryanVarmora/Image-Caption-Generator.git
 cd Image-Caption-Generator
 
 2. Install Dependencies
