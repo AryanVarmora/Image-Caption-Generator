@@ -1,12 +1,12 @@
-Image Caption Generator
+#Image Caption Generator
 
 This project generates descriptive captions for images using a neural network that combines Convolutional Neural Networks (CNNs) for image feature extraction and Long Short-Term Memory (LSTM) networks for natural language processing.
 
-Project Overview
+#Project Overview
 
 Image captioning is a challenging task that bridges computer vision and natural language processing. This project leverages pre-trained CNNs for visual feature extraction and LSTMs for generating meaningful captions for images.
 
-Features
+#Features
 
 Preprocesses and tokenizes textual captions.
 
@@ -18,14 +18,14 @@ Includes evaluation metrics like BLEU score to measure caption quality.
 
 
 
-How to Run
+#How to Run
 
-1. Clone the Repository
+## 1. Clone the Repository
 
 git clone https://github.com/AryanVarmora/Image-Caption-Generator.git
 cd Image-Caption-Generator
 
-2. Install Dependencies
+## 2. Install Dependencies
 
 Ensure you have Python 3.8 or higher installed, then run:
 
