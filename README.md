@@ -1,18 +1,89 @@
-# Image Caption Generator
+Image Caption Generator
 
-This project generates captions for images using a neural network that combines CNNs and LSTMs.
+This project generates descriptive captions for images using a neural network that combines Convolutional Neural Networks (CNNs) for image feature extraction and Long Short-Term Memory (LSTM) networks for natural language processing.
 
-## How to Run
-1. Clone the repository: `git clone <repo-url>`
-2. Install dependencies: `pip install -r requirements.txt`
-3. Run preprocessing: `python src/tokenizer.py`
-4. Train the model: `python src/train.py`
+Project Overview
 
-## Dataset
-- **Captions:** Derived from `captions.txt`, each image has 5 captions.
-- **Images:** Sample images included in `data/images/`.
+Image captioning is a challenging task that bridges computer vision and natural language processing. This project leverages pre-trained CNNs for visual feature extraction and LSTMs for generating meaningful captions for images.
 
-## Technologies Used
-- TensorFlow
-- Python
-- NumPy, Matplotlib
+Features
+
+Preprocesses and tokenizes textual captions.
+
+Extracts image features using pre-trained models like InceptionV3.
+
+Generates captions for images through a CNN-LSTM architecture.
+
+Includes evaluation metrics like BLEU score to measure caption quality.
+
+Repository Structure
+
+Image-Caption-Generator/
+├── data/
+│   ├── captions.txt        # Captions dataset
+│   └── images/             # Folder for image files (sample images)
+├── notebooks/
+│   └── preprocessing.ipynb # Jupyter Notebook for text preprocessing
+├── src/
+│   ├── tokenizer.py        # Script for tokenizing captions
+│   ├── model.py            # CNN-LSTM model code
+│   └── train.py            # Model training script
+├── README.md               # Project documentation
+├── LICENSE                 # License file
+└── requirements.txt        # Python dependencies
+
+How to Run
+
+1. Clone the Repository
+
+git clone <repo-url>
+cd Image-Caption-Generator
+
+2. Install Dependencies
+
+Ensure you have Python 3.8 or higher installed, then run:
+
+pip install -r requirements.txt
+
+3. Preprocess Data
+
+Run the preprocessing script to tokenize captions and prepare the dataset:
+
+python src/tokenizer.py
+
+4. Train the Model
+
+Train the CNN-LSTM model using:
+
+python src/train.py
+
+5. Generate Captions
+
+After training, use the model to generate captions for new images.
+
+Dataset
+
+Captions: Derived from captions.txt, where each image has multiple captions for training.
+
+Images: Include sample images in the data/images/ folder. Additional images can be added for testing.
+
+Technologies Used
+
+Deep Learning Frameworks: TensorFlow or PyTorch
+
+Python Libraries: NumPy, Pandas, Matplotlib, OpenCV
+
+Data Preprocessing: Tokenization, Padding, Vocabulary Building
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contributions
+
+Contributions are welcome! If you want to improve this project, feel free to fork the repository and submit a pull request.
+
+Contact
+
+For questions or suggestions, please reach out through GitHub Issues or email aryanvarmora8@gmail.com
+
