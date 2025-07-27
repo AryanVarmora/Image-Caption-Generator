@@ -2,3 +2,5 @@
 *.tmp
 data/
 src/model_checkpoint.keras"src/model_checkpoint.keras
+.DS_Store/
+.DS_Store
